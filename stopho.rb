@@ -16,7 +16,8 @@ class Stopho < Formula
   head 'https://github.com/kohei-kimura/stopho.git', :branch => 'master'
 
   def install
-    bin.install Dir.glob("stopho*")
+    system "stopho* stopho"
+    bin.install "stopho"
   end
 
 end
