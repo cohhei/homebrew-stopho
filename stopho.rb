@@ -17,6 +17,7 @@ class Stopho < Formula
 
   def install
     puts Dir.pwd
+    puts Dir.glob("*")
     bin.install "stopho-#{VERSION}"
   end
 
