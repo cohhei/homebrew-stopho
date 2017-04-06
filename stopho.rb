@@ -3,7 +3,7 @@ require "formula"
 VERSION='v0.1.0'
 
 class Stopho < Formula
-  if Hardware.is_64_bit?
+  if CPU.is_64_bit?
     url "https://github.com/kohei-kimura/stopho/releases/download/#{VERSION}/stopho_darwin_386"
     sha256 "f1e4c572467e26d2a83d34c76fe40836108dc52664919464a17a7319f74faf2a"
   else
