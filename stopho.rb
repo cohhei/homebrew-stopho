@@ -2,7 +2,7 @@ require "formula"
 
 HOMEBREW_HTTR_VERSION='v0.1.0'
 
-class Httr < Formula
+class Stopho < Formula
   if Hardware.is_64_bit?
     url "https://github.com/kohei-kimura/stopho/releases/download/#{HOMEBREW_HTTR_VERSION}/stopho_darwin_386"
     sha256 "8dfb0e60a6d6cea7719564e7754f54b0132a8bfdf4febca06521f4baa47dd4f2"
