@@ -16,7 +16,7 @@ class Stopho < Formula
   head 'https://github.com/kohei-kimura/stopho.git', :branch => 'master'
 
   def install
-    system "stopho* stopho"
+    system "mv stopho* stopho"
     bin.install "stopho"
   end
 
