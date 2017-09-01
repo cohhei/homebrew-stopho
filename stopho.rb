@@ -1,6 +1,6 @@
 require "formula"
 
-VERSION='v0.1.0'
+VERSION='v0.1.1'
 
 class Stopho < Formula
   if Hardware::CPU.is_64_bit?
